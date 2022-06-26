@@ -7,6 +7,6 @@ docker exec -it <container_ID> /bin/bash
 useradd logwire -p docker  
 docker image tag tomcat:v1 <docker_hub_account>/tomcatimage  
 
-#exercice3
+#exercice3   
 git checkout -b exercice3   
 docker-compose up 
