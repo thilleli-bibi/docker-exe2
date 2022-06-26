@@ -1,4 +1,4 @@
-FROM fabric8/tomcat-9
+FROM fabric8/tomcat-9 as build
 
-COPY webapp.war /opt/tomcat/webapps
+COPY webapp.war /opt/tomcat/webapps/webapp.war
 
